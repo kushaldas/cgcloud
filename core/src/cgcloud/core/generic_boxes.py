@@ -262,6 +262,7 @@ class GenericFedora20Box( FedoraBox ):
             [ 'yum', 'clean', 'all' ] ]
 
 
+@deprecated
 class GenericFedora21Box( FedoraBox ):
     def release( self ):
         return 21

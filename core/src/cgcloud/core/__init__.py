@@ -13,7 +13,6 @@ def roles( ):
                                             GenericUbuntuPreciseBox,
                                             GenericUbuntuTrustyBox,
                                             GenericUbuntuVividBox,
-                                            GenericFedora21Box,
                                             GenericFedora22Box)
     return __fail_deprecated( sorted( locals( ).values( ), key=lambda cls: cls.__name__ ) )
 
